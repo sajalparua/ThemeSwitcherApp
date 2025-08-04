@@ -1,0 +1,39 @@
+/* Theme 1 - Minimalist */
+.theme1 {
+  background-color: #fff;
+  color: #222;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Theme 2 - Dark Mode with Sidebar */
+.theme2 {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Georgia', serif;
+}
+.theme2 .card {
+  background-color: #1e1e1e;
+  color: white;
+}
+.theme2-layout main {
+  background-color: #181818;
+}
+
+/* Theme 3 - Colorful + Grid */
+.theme3 {
+  background-color: #fef6ff;
+  color: #333;
+  font-family: 'Pacifico', cursive;
+}
+.theme3 .card {
+  border: 2px solid #ff91e0;
+  box-shadow: 2px 2px 10px #ffcef4;
+}
+.theme3-layout {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+
+/* Smooth theme transitions */
+body {
+  transition: all 0.3s ease-in-out;
+}
